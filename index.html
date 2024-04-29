@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Entre em contato</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <h1 id="header1">Formulário para contato</h1>
+    <div class="div1">
+    <form method="post" id="fcontato" acion="mailto:contato@alunosti.com"> 
+            <fieldset id="usuario" class="formulario"><legend class="tituloform">Identificação do usuário</legend>
+                
+                <p> Nome: <input class="caixa" type="text" name="tNome" id="cNome" size="20" maxlength="30" placeholder="Nome Completo" /> </p>
+                <p> Senha: <input class="caixa" type="password" name="tSenha" id="cSenha" size="20" maxlength="30" placeholder="Senha" /> </p>
+                <p> E-mail: <input class="caixa" type="text" name="tEmail" id="cEmail" size="8" maxlength="30" placeholder="E-mail" /> </p>
+                <p> Data de nascimento: <input class="caixa" type="date" name="dData" id="cData" size="20" maxlength="30" /> </p>
+                <p> CPF: <input class="caixa" type="number" name="dCpf" id="cCpf" size="20" maxlength="30" />  </p>
+                <p> Número para contato <input class="caixa" type="tel" name="dTelefone" id="cTelefone" size="20" maxlength="30" />    </p>
+                <fieldset>
+                <p> Lagradouro: <input class="caixa" type="text" name="tRua" id="cRua" size="20" maxlength="80" placeholder="R. da Alegria" /> </p>
+                <p> Número: <input class="caixa" type="number" name="tNumero" id="cNumero"  size="13" maxlength="80"
+                placeholder="Número"/> 
+                </p>
+                </fieldset>
+
+                <fieldset id="sexo"><legend>Sexo</legend> 
+                    <input  type="radio" name="tSexo" id="cMasc"/><label for="cMasc">Masculino</label>
+                    <input  type="radio" name="tSexo" id="cFem"/><label for="cFem">Feminino</label>    
+
+
+                </fieldset>
+
+            </fieldset>
+
+            
+
+
+    </form>
+</div>
+
+
+
+  </body>
+</html>

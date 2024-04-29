@@ -1,0 +1,83 @@
+body {
+    background: rgb(237,195,229);
+    background: linear-gradient(90deg, rgba(237,195,229,1) 0%, rgba(161,139,159,1) 35%, rgba(237,195,229,1) 100%);
+
+}
+
+#header1 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-style:unset;
+    color: azure;
+}
+
+.formulario {
+    display: block;
+    height: 500px;
+    width: 300px;
+    background-color: rgb(205, 190, 209);
+    border-width: 10px;
+    border-style:unset;
+    border-color: white;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: small;
+    align-items: baseline;
+    
+
+}
+
+
+.tituloform {
+    display: flex;
+    color: azure;
+    border-width: 2px;
+   
+
+}
+
+.caixa {
+    cursor:pointer;
+    border: 2px;
+    width: 100px;
+    height: 20px;
+    background-color: rgb(227, 217, 230);
+    border-radius: 15%;
+}
+
+input.caixa[type="text"]:hover {
+    border: 1px solid azure;
+}
+
+input.caixa[type="password"]:hover {
+    border: 1px solid  azure;
+}
+
+input.caixa[type="number"]:hover {
+    border: 1px solid  azure;
+}
+
+input.caixa[type="date"]:hover {
+    border: 1px solid  azure;
+}
+
+::-webkit-input-placeholder  { 
+    color:azure ; 
+}
+
+input[type="date"]{
+    color: azure;
+}
+
+fieldset {
+    border: outset azure 1px ;
+    height: 80px;
+    width: 200px;
+    align-items: center;
+}
+
+input[type="radio"] {
+    color:azure ;
+}
+
+
+
+
